@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<form id="uploadform" method="post" enctype="multipart/form-data">
+    <label for="filex">Select a file</label>
+    <input id="filex" name="files" type="file" multiple>
+    <button id="submit" type="button">Upload</button>
+</form>
+<p>Result Filename:&nbsp;<span id="resultFilename"> here</span></p>
+<p>Result Filesize:&nbsp;<span id="resultFilesize">here</span></p>
+
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/ddd.js"></script>
+</body>
+</html>
